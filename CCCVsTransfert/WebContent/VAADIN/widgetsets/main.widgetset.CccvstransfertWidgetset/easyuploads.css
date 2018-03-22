@@ -1,0 +1,48 @@
+.v-multifileupload-dropzone {
+	background: url(../../themes/img/drophere.png) no-repeat 50% 50% #fff;
+	border: 3px dashed #ccc; 
+	text-align:center; 
+	display:block;
+	vertical-align: middle;
+	font-size: 25px;
+	color: #aaa;
+
+	
+	line-height: 8.1em;
+	margin-top: 10px;
+	margin-left: 3px;
+}
+
+.v-multifileupload-uploads {
+	display:block;
+	vertical-align: middle;
+}
+.v-multifileupload-uploads .v-upload {
+	cursor: pointer;
+}
+
+.v-upload .swfupload {
+	position: absolute;
+	z-index: 1;
+}
+
+.v-ddwrapper-over {
+	background: url(../../themes/img/drophereHover.png) no-repeat 50% 50% #eff;
+	color: black;
+	border: 3px dashed #acc
+}
+.v-ddwrapper-over, .v-multifileupload-dropzone {
+	width: 660px;
+	min-width:660px;
+	max-width:660px;
+	
+	height:195px;
+	min-height: 195px;
+	max-height: 195px;
+}
+/*
+.v-activ-drag-source {	
+}
+.v-ddwrapper-over-bottom
+.v-ddwrapper-over-center
+*/
